@@ -1,0 +1,45 @@
+Package: safeAI
+Type: Package
+Title: Univariate Rank Graduation Metrics for SAFE AI
+Version: 0.1.0
+Authors@R: c(
+    person(
+      given = c("Adelaide", "Emma"),
+      family = "Bernardelli",
+      email = "adelaide.bernardelli@iusspavia.it",
+      role = c("aut", "cre")
+    ),
+    person(
+      given = "Paolo",
+      family = "Giudici",
+      role = "ctb",
+      comment = "Contributor to the SAFE AI methodology"
+    ),
+    person(
+      given = "Emanuela",
+      family = "Raffinetti",
+      role = "ctb",
+      comment = "Contributor to the rank graduation methodology"
+    )
+  )
+Description: Implements model-agnostic univariate Rank Graduation metrics for
+    evaluating the accuracy, robustness, and explainability of predictive
+    models. The core functions compare the orderings induced by two vectors
+    through Lorenz, dual Lorenz, and concordance curve constructions. The
+    package supports continuous and binary outcomes represented numerically or
+    logically, ordinal outcomes represented as ordered factors, tie-aware
+    calculations, and helpers for constructing the underlying curves. Model
+    fitting, reduced-model construction, and robustness-scenario design remain
+    separate from metric calculation.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Suggests:
+    ggplot2,
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 8.0.0

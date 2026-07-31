@@ -1,0 +1,22 @@
+citHeader("To cite safeAI in publications, please use:")
+
+bibentry(
+  bibtype = "Manual",
+  title = "safeAI: Univariate Rank Graduation Metrics for SAFE Artificial Intelligence",
+  author = person(c("Adelaide", "Emma"), "Bernardelli"),
+  year = "2026",
+  note = "R package version 0.1.0"
+)
+
+bibentry(
+  bibtype = "Article",
+  title = "RGA: A Unified Measure of Predictive Accuracy",
+  author = c(
+    person("Paolo", "Giudici"),
+    person("Emanuela", "Raffinetti")
+  ),
+  journal = "Advances in Data Analysis and Classification",
+  year = "2025",
+  volume = "19",
+  pages = "67--93"
+)
