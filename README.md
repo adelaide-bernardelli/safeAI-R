@@ -14,34 +14,39 @@ The functions accept continuous, binary, logical, and ordered-factor outcomes. T
 
 ## Installation
 
-Install the source archive with:
+The latest version of `safeAI` can be installed directly from GitHub.
+
+### Using `pak`
 
 ```r
-install.packages(
-  "safeAI_0.1.0.tar.gz",
-  repos = NULL,
-  type = "source"
+install.packages("pak")
+pak::pkg_install("adelaide-bernardelli/safeAI-R")
+```
+
+### Using `remotes`
+
+Alternatively, install the package with `remotes`:
+
+```r
+install.packages("remotes")
+
+remotes::install_github(
+  "adelaide-bernardelli/safeAI-R",
+  upgrade = "never"
 )
 ```
 
-For development from the extracted source folder:
+After installation, load the package with:
 
 ```r
-install.packages(c("devtools", "roxygen2", "testthat"))
-
-devtools::document("safeAI")
-devtools::test("safeAI")
-devtools::check("safeAI")
-devtools::install("safeAI")
+library(safeAI)
 ```
 
-From inside the RStudio project, omit the package path:
+You can verify the installed version and open the package documentation with:
 
 ```r
-devtools::document()
-devtools::test()
-devtools::check()
-devtools::install()
+packageVersion("safeAI")
+help(package = "safeAI")
 ```
 
 ## Accuracy
