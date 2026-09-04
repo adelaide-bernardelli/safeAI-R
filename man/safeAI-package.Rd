@@ -27,11 +27,5 @@ Authors:
   \item Adelaide Emma Bernardelli \email{adelaide.bernardelli@iusspavia.it}
 }
 
-Other contributors:
-\itemize{
-  \item Paolo Giudici (Contributor to the SAFE AI methodology) [contributor]
-  \item Emanuela Raffinetti (Contributor to the rank graduation methodology) [contributor]
-}
-
 }
 \keyword{internal}
