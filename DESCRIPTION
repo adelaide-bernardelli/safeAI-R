@@ -8,18 +8,6 @@ Authors@R: c(
       family = "Bernardelli",
       email = "adelaide.bernardelli@iusspavia.it",
       role = c("aut", "cre")
-    ),
-    person(
-      given = "Paolo",
-      family = "Giudici",
-      role = "ctb",
-      comment = "Contributor to the SAFE AI methodology"
-    ),
-    person(
-      given = "Emanuela",
-      family = "Raffinetti",
-      role = "ctb",
-      comment = "Contributor to the rank graduation methodology"
     )
   )
 Description: Implements model-agnostic univariate Rank Graduation metrics for
